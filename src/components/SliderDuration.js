@@ -12,7 +12,7 @@ class SliderDuration extends Component {
                 <Row>
                     <Col  sm={12}>
                         <Row>
-                            <Col className="labelSlider" sm={4}>
+                            <Col className="labelSlider alert alert-success" sm={5}>
                                 Durée
                             </Col>
                             <Col className="descSlider" sm={6}>

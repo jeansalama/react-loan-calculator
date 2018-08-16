@@ -13,7 +13,7 @@ class SliderAmount extends Component {
                 <Row>
                     <Col  sm={12}>
                         <Row>
-                            <Col className="labelSlider" xs={12} sm={4}>
+                            <Col className="labelSlider alert alert-success" sm={5}>
                                 Montant
                             </Col>
                             <Col className="descSlider" xs={12} sm={6}>
