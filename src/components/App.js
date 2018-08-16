@@ -198,6 +198,9 @@ class LoanCalculator extends Component {
     {
         return(
             <Grid className="show-grid mainContainer">
+                <Col>
+                    <h1 className="text-success">Calculateur de prêt</h1>
+                </Col>
                 <Row>
                     <Col className="leftSide" xs={12} md={6}>
                         <Form horizontal>
@@ -217,9 +220,6 @@ class LoanCalculator extends Component {
                                 step={this.state.stepDuration}
                             />
                         </Form>
-                        <Col className="logo" sm={12}>
-                            YourLogo
-                        </Col>
                     </Col>
 
                     <RightSide
@@ -256,20 +256,20 @@ LoanCalculator.propTypes = {
 
 LoanCalculator.defaultProps = {
     valueD: 24,
-    stepD: 12,
+    stepD: 1,
     maxD: 72,
     minD: 12,
 
     valueA : 2000,
     stepA : 500,
-    maxA : 10000,
+    maxA : 100000,
     minA : 1000,
 
     APR1: 3.3,
     APR2: 9.6,
     APR3: 17.4,
 
-    currancy: '£',
+    currancy: '$',
 };
 
 export default LoanCalculator;

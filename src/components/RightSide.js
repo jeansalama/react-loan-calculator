@@ -9,21 +9,21 @@ class RightSide extends Component {
     render() {
         return (
             <Col className="rightSide" xs={12} md={6}>
-                <h4>Total amount to repay</h4>
+                <h4>Remboursement total</h4>
                 <span  className="totalAmountDisplay">{this.props.currancy}{this.props.amount}</span>
 
-                <h4>Monthly instaltment</h4>
+                <h4>Remboursement mensuel</h4>
                 <span className="monthlyInstDisplay">{this.props.currancy}{this.props.monthly}</span>
 
-                <h4>APR</h4>
+                <h4>Taux</h4>
                 <span className="aprDisplay">{this.props.APR}%</span>
 
-                <h4>Your Credit History</h4>
+                <h4>Votre historique de crédit</h4>
 
                 <ButtonGroup justified>
-                    <Button   bsStyle="primary" id="Excellent" onClick={this.props.btnOnClick} >Excellent</Button>
-                    <Button   bsStyle="primary" id="Good" onClick={this.props.btnOnClick} >Good</Button>
-                    <Button   bsStyle="primary" id="Fair" onClick={this.props.btnOnClick}>Fair</Button>
+                    <Button   bsStyle="success" id="Excellent" onClick={this.props.btnOnClick} >Excellent</Button>
+                    <Button   bsStyle="success" id="Good" onClick={this.props.btnOnClick} >Bon</Button>
+                    <Button   bsStyle="success" id="Fair" onClick={this.props.btnOnClick}>Limite</Button>
                 </ButtonGroup>
 
             </Col>

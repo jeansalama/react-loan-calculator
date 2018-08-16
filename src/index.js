@@ -28,6 +28,6 @@ APR DEPENDS on CREDIT HIOSTORY, YOU CAN SET TO YOUR OWN RATE
  APR2={9.6}  in %  , GOOD
  APR3={17.4} in %  , FAIR
 
- currancy={£},   - currancy , default £
+ currancy={$},   - currancy , default $
 
  */

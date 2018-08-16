@@ -14,10 +14,10 @@ class SliderAmount extends Component {
                     <Col  sm={12}>
                         <Row>
                             <Col className="labelSlider" xs={12} sm={4}>
-                                Amount
+                                Montant
                             </Col>
                             <Col className="descSlider" xs={12} sm={6}>
-                                How much would you like to borrow??
+                                Combien voulez-vous emprunter ?
                             </Col>
                         </Row>
                     </Col>

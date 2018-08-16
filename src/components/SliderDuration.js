@@ -13,10 +13,10 @@ class SliderDuration extends Component {
                     <Col  sm={12}>
                         <Row>
                             <Col className="labelSlider" sm={4}>
-                                Duration
+                                Durée
                             </Col>
                             <Col className="descSlider" sm={6}>
-                                For how long would you like to borrow?
+                                Quelle est la durée de votre emprunt ?
                             </Col>
                         </Row>
                     </Col>
@@ -31,7 +31,7 @@ class SliderDuration extends Component {
                             onChange={this.props.onChange}
                             step={this.props.step} />
 
-                        <div id="amountValueDisplay">{this.props.value} months</div>
+                        <div id="amountValueDisplay">{this.props.value} mois</div>
                     </Col>
                 </Row>
             </FormGroup>
